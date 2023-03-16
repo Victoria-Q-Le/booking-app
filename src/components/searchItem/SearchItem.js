@@ -2,8 +2,8 @@ import "./searchItem.css"
 
 const SearchItem = () => {
   return (
-    <div>
-      This is the search item
+    <div className="searchItem">
+      <img className=""/>
     </div>
   )
 }

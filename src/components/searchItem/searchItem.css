@@ -34,6 +34,27 @@
     height: 20px;
 }
 
-.siPrice {
+.siBooking {
     flex: 1;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.siBooking>button {
+    background-color: #a39193;
+    color: white;
+    display: flex;
+    border: none;
+    padding: 10px 5px;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.siPrice {
+    font-size: 24px;
 }

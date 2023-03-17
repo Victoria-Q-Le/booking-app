@@ -9,10 +9,13 @@ const SearchItem = () => {
       <div className="siDetails">
         <h1 className="siTitle">Gel Manicure</h1>
         <span className="siDesc">Premium manicure service include cuticle trimming, followed by massage with lotion and hot stones then ended with gel polish.</span>
-        <input type="textarea" className="siNote" placeholder="Please enter your note, in case you want to request to a specific tech please enter it here"></input>
+        <input type="text" className="siNote" placeholder="Please enter your note here"></input>
       </div>
 
-      <span className="siPrice">$42</span>
+      <div className="siBooking">
+        <span className="siPrice">$42</span>
+        <button className="siButton">Schedule Appointment</button>
+      </div>
     </div>
   )
 }

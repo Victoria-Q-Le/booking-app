@@ -17,4 +17,23 @@
 .siDetails {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.siTitle {
+    font-size: 20px;
+    color: #aa6f73;
+}
+
+.siDesc {
+    font-size: 12px;
+}
+
+.siNote {
+    height: 20px;
+}
+
+.siPrice {
+    flex: 1;
 }

@@ -24,7 +24,7 @@ const Index = () => {
           <div className="listSearch">
             <h1 className="lsTitle">Search</h1>
             <div className="lsItem">
-              <label>Destination</label>
+              <label>Service</label>
               <input type="text" placeholder={service}></input>
             </div>
             

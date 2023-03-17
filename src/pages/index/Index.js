@@ -42,7 +42,6 @@ const Index = () => {
             <SearchItem />
             <SearchItem />
             <SearchItem />
-            <SearchItem />
 
           </div>
           {/* END OF LIST RESULT */}

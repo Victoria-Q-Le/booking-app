@@ -1,9 +1,12 @@
-import React from 'react'
+import Header from "../../components/header/Header"
+import Navbar from "../../components/navBar/Navbar"
+import "./service.css"
 
 const Service = () => {
   return (
     <div>
-      This page will displays individual service 
+      <Navbar /> 
+      <Header type="list"/>
     </div>
   )
 }

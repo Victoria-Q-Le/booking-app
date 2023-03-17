@@ -40,8 +40,6 @@ const Index = () => {
           {/* LIST RESULT */}
           <div className="listResult">
             <SearchItem />
-            <SearchItem />
-            <SearchItem />
 
           </div>
           {/* END OF LIST RESULT */}

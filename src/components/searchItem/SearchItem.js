@@ -9,7 +9,7 @@ const SearchItem = () => {
       <div className="siDetails">
         <h1 className="siTitle">Gel Manicure</h1>
         <span className="siDesc">Premium manicure service include cuticle trimming, followed by massage with lotion and hot stones then ended with gel polish.</span>
-        <input type="text" className="siNote" placeholder="Please enter your note here"></input>
+        <textarea type="text" className="siNote" placeholder="Please enter your note here"></textarea>
       </div>
 
       <div className="siBooking">
